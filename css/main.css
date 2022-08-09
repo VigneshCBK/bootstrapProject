@@ -1,3 +1,74 @@
-#icon:hover{
-color: aliceblue;
+.icon a{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 48px;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.6);
+}
+.iconbox-1 h2 a{
+    text-decoration: none;
+}
+.iconbox-1 h2 a{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: aliceblue;
+}
+.iconbox-1{
+    padding: 30px;
+    border-radius: 5px;
+}
+.about{
+    margin-top: 70px;
+    padding: 60px 0;
+}
+.abt-head{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.abt-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+#abt-id h3{
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+#abt-id img{
+    width: 645px;
+    height: auto;
+    border-radius: 15px;
+}
+#abt-id p{
+    padding-top: 10px;
+}
+#abt-side2 {
+padding-left: 50px;
+}
+.content .italic{
+    font-style: italic;
+}
+.content ul{
+    list-style: none;
+}
+.content ul li{
+    padding: 15px 0 0 30px;
+}
+.content ul li i{
+   
+    font-size: 20px;
+    left: 0;
+    top: -3px;
+    color: #008d7d;
+}
+.pic-icon a i{
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
+    border-radius: 50%;
+  
+    
+
 }
