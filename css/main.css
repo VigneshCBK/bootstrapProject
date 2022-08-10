@@ -1,3 +1,7 @@
+#banner-sec{
+
+}
+
 .icon a{
     margin-bottom: 20px;
     padding-top: 10px;
@@ -26,6 +30,20 @@
 .abt-head{
     text-align: center;
     padding-bottom: 60px;
+    position: relative;
+}
+.abt-head::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #008d7d;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -60px ;
+    margin: auto;
 }
 .abt-row{
     display: flex;
@@ -43,6 +61,7 @@
 }
 #abt-id p{
     padding-top: 10px;
+    cursor:;
 }
 #abt-side2 {
 padding-left: 50px;
@@ -62,13 +81,54 @@ padding-left: 50px;
     left: 0;
     top: -3px;
     color: #008d7d;
+    
+}
+.pic-icon img{
+    position: relative;
 }
 .pic-icon a i{
     width: 94px;
     height: 94px;
     background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
-    border-radius: 50%;
-  
-    
-
+    border-radius: 50px;
+    position: absolute;
+    top: 20px;
+    top: 1538px;
+    left: 1092px;
+    font-size: 100px;
+}
+#clients-pics{
+    width: 16.66%;
+}
+.clients{
+    padding: 30px;
+}
+.clients img{
+    width: 100px;
+}
+.clients img:hover{
+    transform: scale(2.5);
+}
+.status{
+    padding: 100px;
+}
+.number{
+    color:#008d7d ;
+}
+.para{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.number h2{
+    font-size: 50px;
+}
+.num-para{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px rgb(196, 196, 198);
+}
+.status img{
+    width: 700px;
+    padding-right: 50px;
 }
