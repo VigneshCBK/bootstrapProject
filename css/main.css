@@ -32,6 +32,10 @@
     padding-bottom: 60px;
     position: relative;
 }
+.abt-head p{
+    margin-top: 50px;
+
+}
 .abt-head::before{
     content: "";
     position: absolute;
@@ -42,7 +46,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    top: -60px ;
+    top: -90px ;
     margin: auto;
 }
 .abt-row{
@@ -61,7 +65,7 @@
 }
 #abt-id p{
     padding-top: 10px;
-    cursor:;
+    
 }
 #abt-side2 {
 padding-left: 50px;
@@ -107,7 +111,7 @@ padding-left: 50px;
     width: 100px;
 }
 .clients img:hover{
-    transform: scale(2.5);
+    transform: scale(1.5);
 }
 .status{
     padding: 100px;
@@ -131,4 +135,136 @@ padding-left: 50px;
 .status img{
     width: 700px;
     padding-right: 50px;
+}
+#doubleside{
+    padding-left: 50px;
+    padding-top: 40px;
+    align-items: center;
+}
+.call-act .container{
+    background: linear-gradient(rgba(2,2,2,.5),rgba(0,0,0,.8)),url("../imgs/cta-bg.jpg") center center;
+    padding: 100px 60px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-size: cover;
+
+}
+.call-act .container a{
+    text-decoration: none;
+}
+
+.play-btn{
+    width: 79px;
+    height: 72px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    left: 550px;
+    padding: 14px;
+    overflow: hidden;
+    background-color: #008d7d;
+    color: wheat;
+    padding-left: 31px;
+}
+.play-btn i{
+    font-size: 30px;
+    color: aliceblue;
+    
+}
+.cal-act a i:hover{
+    transform: scale(1.5);
+}
+.call-act .container .cal-act h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.call-act .container p{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.call-act .container .btn{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 48px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.cal-act{
+    text-align: center;
+}
+.call-act .container .btn:hover{
+   background-color: #008d7d;
+}
+.service{
+    margin-top: 70px;
+    padding: 60px 0;
+}
+.ser-head{
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+}
+.ser-head p{
+    margin-top: 50px;
+}
+.ser-head::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #008d7d;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -90px ;
+    margin: auto;
+}
+.service-item{
+    padding: 40px;
+    background: #fff;
+    height: 100%;
+    border-radius: 10px;
+}
+.ser-icon {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.ser-icon i{
+    color:black;
+    font-size: 56px;
+    
+}
+.service-item{
+    margin-bottom: 20px;
+}
+.service-item h3 {
+    color: black;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    padding-bottom: 8px;
+    font-size: 22px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 4px solid #eeeeee;
+}
+.service-item p{
+    line-height: 24px;
+    font-size: 14px;
+    color: black;
+}
+.service-item a{
+    text-decoration: none;
 }
