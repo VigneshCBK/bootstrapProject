@@ -341,8 +341,18 @@ padding-left: 50px;
     margin-top: -23px;
     margin-bottom: 10px;
 }
+.card{
+    box-shadow: 20px;
+}
+.card p{
+    margin-top: 0px;
+    padding: 34px;
+}
 .star{
     margin-left: 150px;
+}
+.star i{
+    font-size: 25px;
 }
 .card-content p{
    padding: 33px;
