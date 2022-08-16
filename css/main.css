@@ -34,6 +34,8 @@
 }
 .abt-head p{
     margin-top: 50px;
+    color: #6f6f6f;
+
 
 }
 .abt-head::before{
@@ -216,6 +218,8 @@ padding-left: 50px;
 }
 .ser-head p{
     margin-top: 50px;
+    color: #6f6f6f;
+
 }
 .ser-head::before{
     content: "";
@@ -267,4 +271,79 @@ padding-left: 50px;
 }
 .service-item a{
     text-decoration: none;
+}
+.testimoinal{
+    margin-top: 10px;
+    padding: 60px 0;
+}
+.testimonial-head{
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+}
+.testimonial-head p{
+    margin-top: 50px;
+   color: #6f6f6f;
+}
+.testimonial-head::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #008d7d;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -90px ;
+    margin: auto;
+}
+.card-img img{
+    width: 100px;
+    border-radius: 50%;
+}
+.card-content h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #000;
+}
+.card-content h4{
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+.star{
+    color: gold;
+}
+.t1{
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+    transform: scale(-1,-1);
+}
+.ion-quote{
+    color: #008d7d;
+    margin-right: 5px;
+}
+.card-img{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.card-content h3{
+    margin-left: 150px;
+    margin-top: -81px;
+    margin-bottom: 32px;
+}
+.card-content h4{
+    margin-left: 150px;
+    margin-top: -23px;
+    margin-bottom: 10px;
+}
+.star{
+    margin-left: 150px;
+}
+.card-content p{
+   padding: 33px;
 }
