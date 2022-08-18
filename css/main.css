@@ -1,6 +1,4 @@
-#banner-sec{
 
-}
 
 .icon a{
     margin-bottom: 20px;
@@ -23,6 +21,14 @@
     padding: 30px;
     border-radius: 5px;
 }
+#double-bttn{
+    padding: 14px 40px;
+     border-radius: 50px; 
+     color: #f1f6f5;
+     background-color: #0ba08a;
+    box-shadow: 2px;
+}
+
 .about{
     margin-top: 70px;
     padding: 60px 0;
@@ -282,7 +288,7 @@ padding-left: 50px;
     position: relative;
 }
 .testimonial-head p{
-    margin-top: 50px;
+   margin-top: 50px;
    color: #6f6f6f;
 }
 .testimonial-head::before{
@@ -298,62 +304,97 @@ padding-left: 50px;
     top: -90px ;
     margin: auto;
 }
-.card-img img{
-    width: 100px;
-    border-radius: 50%;
-}
-.card-content h3{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0 5px 0;
-    color: #000;
-}
-.card-content h4{
-    font-size: 14px;
-    color: #999;
-    margin: 0;
-}
-.star{
-    color: gold;
-}
-.t1{
-    display: inline-block;
-    right: -5px;
+ .card review-card{
     position: relative;
+    padding: 10px 15px 10px 80px;
+}
+.review-card-title img{
+    position: absolute;
+    left: 10px;
     top: 10px;
-    transform: scale(-1,-1);
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    
 }
-.ion-quote{
+.review-card-title{
+    padding-left: 100px;
+    top: 30px;
+}
+.review-icon i{
+    color: goldenrod;
+}
+.card-body{
+    padding: 30px;
+}
+.head-icon{
+padding-top: 15px;
+}
+.portfolio{
+    margin-top: 70px;
+    padding: 60px 0;
+    background-color: #eeeeee;
+}
+.portfolio-head{
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+}
+.portfolio-head p{
+    margin-top: 50px;
+    color: #6f6f6f;
+
+}
+.portfolio-head::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #008d7d;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -90px ;
+    margin: auto;
+}
+.port-menu{
+    padding: 0 0 20px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.port-menu ul li{
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 10px;
+    line-height: 1;
+}
+.port-menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.port-menu ul li a:hover{
     color: #008d7d;
-    margin-right: 5px;
 }
-.card-img{
-    margin-left: 20px;
-    margin-top: 15px;
+.port-img{
+position: relative;
+height: 1750.35px;
 }
-.card-content h3{
-    margin-left: 150px;
-    margin-top: -81px;
-    margin-bottom: 32px;
+.port-img img:hover{
+    transform: scale(1.1);
 }
-.card-content h4{
-    margin-left: 150px;
-    margin-top: -23px;
-    margin-bottom: 10px;
+#port-poto{
+    position: absolute;
+    left: 0px;
+    top: 10px;
 }
-.card{
-    box-shadow: 20px;
-}
-.card p{
-    margin-top: 0px;
-    padding: 34px;
-}
-.star{
-    margin-left: 150px;
-}
-.star i{
-    font-size: 25px;
-}
-.card-content p{
-   padding: 33px;
+#card-img{
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    height: 100%;
+    overflow: hidden;
 }
